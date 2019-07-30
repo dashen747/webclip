@@ -17,7 +17,7 @@
               if(xhr.readyState == 4 && xhr.status == 200 || xhr.status == 304) {
               //responseText：从服务器获得数据
                      console.log(xhr);
-                     windows.loaction.href = xhr.responseText;
+                     window.loaction.href = xhr.responseText;
               }
         };
         xhr.send();
