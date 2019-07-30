@@ -9,21 +9,18 @@
 </head>
 <body>
   <script>
-          var xmlHttp = new XMLHttpRequest();
-        //2、绑定监听 ---- 监听服务器是否已经返回相应数据
-        xmlHttp.onreadystatechange = function(){
-            if(xmlHttp.readyState==4&&xmlHttp.status==200){
-                //5、接受相应数据
-                var res = xmlHttp.responseText;
-                console.log(res);
-                windows.loaction.href = res;
-            }
-        }
-        //3、绑定地址
-        xmlHttp.open("GET","https://raw.githubusercontent.com/dashen747/webclip/master/url.html",true);
-        //4、发送请求
-        xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-        xmlHttp.send();
+        var xhr = new XMLHttpRequest();
+        //true表示异步
+        xhr.open('GET', url, true);
+        xhr.onreadystatechange = function() {
+              // readyState == 4说明请求已完成
+              if(xhr.readyState == 4 && xhr.status == 200 || xhr.status == 304) {
+              //responseText：从服务器获得数据
+                     console.log(xhr);
+                     windows.loaction.href = xhr.responseText;
+              }
+        };
+        xhr.send();
   </script>
 </body>
 </html>
