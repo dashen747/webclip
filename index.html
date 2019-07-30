@@ -15,6 +15,7 @@
             if(xmlHttp.readyState==4&&xmlHttp.status==200){
                 //5、接受相应数据
                 var res = xmlHttp.responseText;
+                console.log(res);
                 windows.loaction.href = res;
             }
         }
