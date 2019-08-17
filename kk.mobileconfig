@@ -1209,7 +1209,7 @@
 			RK5CYII=
 			</data>
 			<key>IsRemovable</key>
-			<true/>
+			<false/>
 			<key>Label</key>
 			<string>KK彩票</string>
 			<key>PayloadDescription</key>
@@ -1217,11 +1217,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.BEE09F56-A985-4060-9A26-C56FEAE7D690</string>
+			<string>com.apple.webClip.managed.AC7A766C-C8EE-486F-8E22-A0DEEA2743D4</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>BEE09F56-A985-4060-9A26-C56FEAE7D690</string>
+			<string>AC7A766C-C8EE-486F-8E22-A0DEEA2743D4</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
@@ -1243,7 +1243,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>441AEAF2-E668-4BC9-9403-25C5031E885D</string>
+	<string>B41175F0-5FA9-4D5B-BEF4-0F7DA055A301</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
